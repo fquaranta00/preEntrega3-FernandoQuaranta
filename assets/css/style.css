@@ -1,0 +1,354 @@
+.navbar {
+  background-color: rgb(192, 255, 115);
+}
+.navbar .imagen-marca {
+  background-color: rgb(192, 255, 115);
+}
+.navbar .imagen-marca img {
+  width: 30px;
+  height: 30px;
+  filter: drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.447));
+}
+
+.marca {
+  font-size: x-large;
+}
+
+.nav-desplegable {
+  background-color: rgb(192, 255, 115);
+  border: 0px;
+}
+
+.nav-lista {
+  font-size: larger;
+}
+.nav-lista .nav-pag:hover {
+  text-shadow: rgb(109, 88, 0) 1px 0 12px;
+}
+
+.btn-custom-class {
+  border-color: rgba(96, 0, 0, 0.233);
+}
+.btn-custom-class:hover {
+  background-color: rgba(16, 192, 0, 0.4);
+  box-shadow: rgb(109, 88, 0) 0 1px 1px;
+}
+
+.jumbo-prod {
+  background-image: linear-gradient(rgba(129, 132, 91, 0.459), rgba(201, 154, 240, 0.283)), url(../img/manosmedicaconceluenmesa.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0px;
+  height: 350px;
+  transition: all 3s;
+  transform-origin: center center;
+}
+.jumbo-prod:hover {
+  background-image: linear-gradient(rgb(129, 132, 91), rgba(201, 154, 240, 0.493)), url(../img/manosmedicaconceluenmesa.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0px;
+  height: 350px;
+  transition: all 3s;
+  transform: scale(1.04);
+}
+.jumbo-prod p {
+  color: rgb(0, 0, 0);
+}
+.jumbo-prod h2 {
+  color: rgb(0, 0, 0);
+  background-color: rgba(175, 78, 192, 0.3254901961);
+  width: 10%;
+}
+
+.jumbo-pag-prod {
+  background: #3494E6; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0px;
+  height: 850px;
+}
+.jumbo-pag-prod .prod-text {
+  color: #132d00;
+  background-color: rgba(238, 248, 255, 0.6274509804);
+  padding: 10px;
+  box-shadow: 28px 18px 28px rgba(14, 57, 65, 0.502);
+  border: 1px solid black;
+}
+
+.list-prod-1 {
+  background-color: rgba(137, 43, 226, 0.237);
+}
+
+.list-prod-2 {
+  background-color: rgba(137, 43, 226, 0.237);
+}
+
+.list-prod-3 {
+  background-color: rgba(137, 43, 226, 0.237);
+}
+
+.quienes-back {
+  background: #67B26F; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #367493, #3d6b42); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.quienes-back h3 {
+  text-decoration: underline;
+}
+.quienes-back .nleft {
+  background-image: url(../img/genteenunacompu.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.gest-video {
+  background-image: linear-gradient(rgb(187, 190, 136), rgba(212, 184, 235, 0.493)), url(../img/genteconCompusobreMesa.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding-top: 25px;
+  margin-bottom: 0;
+}
+.gest-video h2 {
+  color: #000000;
+  margin-bottom: 20px;
+  padding-top: 0px;
+  background-color: rgba(255, 0, 0, 0.167);
+  width: 45%;
+}
+.gest-video p {
+  color: #000000;
+  font-size: large;
+}
+.gest-video .video {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.gest-video .video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 80%;
+  width: 80%;
+}
+.gest-video .video iframe:hover {
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.502);
+}
+@media (min-width: 1000px) {
+  .gest-video iframe {
+    width: 60%;
+    height: 60%;
+  }
+}
+@media (min-width: 1800px) {
+  .gest-video iframe {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+.site-footer {
+  background-color: #003605;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #737373;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.site-footer .footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.site-footer .footer-links li {
+  display: block;
+}
+.site-footer .footer-links a {
+  color: #737373;
+}
+.site-footer .footer-links a:active, r-links .site-footer .footer-links a:focus, .site-footer .footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.site-footer .footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  line-height: 40px;
+  height: 40px;
+  margin-right: 0;
+  margin-left: 6px;
+  background-color: #33353d;
+  border-radius: 100%;
+}
+@media (max-width: 991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text, .site-footer .social-icons {
+    text-align: center;
+  }
+}
+
+.copyright-text {
+  margin: 0;
+}
+
+.social-icons {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons a {
+  color: #818a91;
+  background-color: #eceeef;
+  line-height: 44px;
+  font-size: 16px;
+  height: 44px;
+  display: inline-block;
+  margin-right: 8px;
+  width: 44px;
+  border-radius: 100%;
+  text-align: center;
+}
+.social-icons a:active, .social-icons a:focus, .social-icons a:hover {
+  background-color: rgba(1, 255, 1, 0.537254902);
+  color: #cd6300;
+}
+.social-icons a.size-sm a {
+  width: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  height: 34px;
+}
+@media (max-width: 767px) {
+  .social-icons a li.title {
+    display: block;
+    font-weight: 600;
+    margin-right: 0;
+  }
+}
+
+.articulo {
+  padding: 20px;
+}
+.articulo .textoinicioEmpresa {
+  margin-left: 20px;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  color: maroon;
+  top: 0px;
+  position: relative;
+}
+.articulo .mainimageEmpresa {
+  position: relative;
+  display: inline-block;
+  height: 350px;
+  width: 450px;
+  left: 450px;
+  top: 0px;
+  padding: 0;
+  margin: 0;
+  text-align: top;
+}
+
+.divContactos {
+  padding: 10px;
+  background-image: linear-gradient(rgba(129, 132, 91, 0.459), rgba(201, 154, 240, 0.283)), url(../img/mapamundi.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.divContactos .titulomensajeContacto {
+  margin-left: 10px;
+}
+.divContactos .bloqueMensaje {
+  display: block;
+  width: 100px;
+  height: 700px;
+}
+.divContactos .bloqueMensaje #name {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.divContactos .bloqueMensaje #email {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.divContactos .bloqueMensaje #message {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 183px;
+}
+.divContactos .bloqueMensaje .botonenviarContacto {
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+  padding-right: 140px;
+}
+.divContactos .bloqueContacto {
+  display: inline-block;
+  position: absolute;
+  padding-top: 250px;
+  margin: 0;
+  top: 115px;
+  left: 650px;
+  width: 500px;
+  height: 600px;
+  background-color: bisque;
+  text-align: center;
+  box-sizing: border-box;
+  color: rgb(18, 5, 25);
+}
+
+.mainDescarga {
+  height: 800px;
+  background-color: rgba(0, 128, 0, 0.406);
+}
+.mainDescarga .videoDescarga {
+  display: inline-block;
+  position: absolute;
+  padding: 90px;
+  border: 15px;
+  top: 50px;
+  left: 100px;
+}/*# sourceMappingURL=style.css.map */

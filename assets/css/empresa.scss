@@ -1,0 +1,32 @@
+//   /* 
+//      ACA COMIENZA EL CSS 
+//      DE LA PÁGINA "EMPRESA"
+//   */
+
+
+.articulo { 
+    padding: 20px;
+
+    .textoinicioEmpresa {
+        margin-left: 20px;
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        display: inline-block;
+        color: maroon;
+        top: 0px;   
+        position: relative;
+    }
+
+    .mainimageEmpresa {
+        position: relative;
+        display: inline-block;
+        height: 350px;
+        width: 450px;
+        left: 450px;
+        top: 0px;
+        padding: 0;
+        margin: 0;
+        text-align: top;
+    }
+}

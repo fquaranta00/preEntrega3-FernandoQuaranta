@@ -1,0 +1,12 @@
+.mainDescarga {
+  height: 800px;
+  background-color: rgba(0, 128, 0, 0.406);
+}
+.mainDescarga .videoDescarga {
+  display: inline-block;
+  position: absolute;
+  padding: 90px;
+  border: 15px;
+  top: 50px;
+  left: 100px;
+}/*# sourceMappingURL=descarga.css.map */
