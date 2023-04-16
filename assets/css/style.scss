@@ -79,30 +79,30 @@
 
 // COMIENZO SECCION PRODUCTOS
 
-.jumbo-pag-prod {
-    background: #3494E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0px;
-    height: 850px;
+// .jumbo-pag-prod {
+//     background: #3494E6;  /* fallback for old browsers */
+//     background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+//     background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//     background-size: cover;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     margin: 0px;
+//     height: 850px;
     
-    .prod-text {
-    color: #132d00;
-    background-color: #eef8ffa0;
-    padding: 10px;
-    box-shadow: 28px 18px 28px rgba(14, 57, 65, 0.502);
-    border: 1px solid black;
-    }
-}
+//     .prod-text {
+//     color: #132d00;
+//     background-color: #eef8ffa0;
+//     padding: 10px;
+//     box-shadow: 28px 18px 28px rgba(14, 57, 65, 0.502);
+//     border: 1px solid black;
+//     }
+// }
 
-@for $i from 1 through 3 {
-    .list-prod-#{$i} { 
-        background-color: rgba(137, 43, 226, 0.237); 
-        }
-}
+// @for $i from 1 through 3 {
+//     .list-prod-#{$i} { 
+//         background-color: rgba(137, 43, 226, 0.237); 
+//         }
+// }
 
 // FIN SECCION PRODUCTOS
 
@@ -283,8 +283,8 @@
     }
 
     a {
-        color: #818a91;
-        background-color: #eceeef;
+        color: #418660;
+        background-color: #ecefee;
         line-height: 44px;
         font-size: 16px;
         height: 44px;
@@ -316,6 +316,7 @@
     }
 }
 
+@import "../css/producto.scss";
 @import "../css/empresa.scss";
 @import "../css/contacto.scss";
 @import "../css/descarga.scss";

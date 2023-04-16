@@ -63,35 +63,6 @@
   width: 10%;
 }
 
-.jumbo-pag-prod {
-  background: #3494E6; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0px;
-  height: 850px;
-}
-.jumbo-pag-prod .prod-text {
-  color: #132d00;
-  background-color: rgba(238, 248, 255, 0.6274509804);
-  padding: 10px;
-  box-shadow: 28px 18px 28px rgba(14, 57, 65, 0.502);
-  border: 1px solid black;
-}
-
-.list-prod-1 {
-  background-color: rgba(137, 43, 226, 0.237);
-}
-
-.list-prod-2 {
-  background-color: rgba(137, 43, 226, 0.237);
-}
-
-.list-prod-3 {
-  background-color: rgba(137, 43, 226, 0.237);
-}
-
 .quienes-back {
   background: #67B26F; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #367493, #3d6b42); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -237,8 +208,8 @@
   margin-bottom: 4px;
 }
 .social-icons a {
-  color: #818a91;
-  background-color: #eceeef;
+  color: #418660;
+  background-color: #ecefee;
   line-height: 44px;
   font-size: 16px;
   height: 44px;
@@ -266,8 +237,47 @@
   }
 }
 
+.jumbo-pag-prod {
+  background-color: #000000;
+  background-image: url("../img/formulas.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  height: 850px;
+}
+.jumbo-pag-prod .prod-text {
+  color: #132d00;
+  background-color: rgba(170, 240, 214, 0.7411764706);
+  padding: 10px;
+  box-shadow: 8px 18px 28px rgba(14, 57, 65, 0.502);
+  border: 1px solid black;
+  animation: fade-in 2s ease-in-out;
+  animation-iteration-count: 1;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.list-prod-1 {
+  background-color: rgba(30, 193, 38, 0.705);
+}
+
+.list-prod-2 {
+  background-color: rgba(30, 193, 38, 0.705);
+}
+
+.list-prod-3 {
+  background-color: rgba(30, 193, 38, 0.705);
+}
+
 .articulo {
-  padding: 20px;
+  padding: 40px;
 }
 .articulo .textoinicioEmpresa {
   margin-left: 20px;
@@ -284,8 +294,6 @@
   display: inline-block;
   height: 350px;
   width: 450px;
-  left: 450px;
-  top: 0px;
   padding: 0;
   margin: 0;
   text-align: top;

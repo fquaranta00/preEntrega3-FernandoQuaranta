@@ -1,0 +1,38 @@
+.jumbo-pag-prod {
+  background-color: #000000;
+  background-image: url("../img/formulas.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  height: 850px;
+}
+.jumbo-pag-prod .prod-text {
+  color: #132d00;
+  background-color: rgba(170, 240, 214, 0.7411764706);
+  padding: 10px;
+  box-shadow: 8px 18px 28px rgba(14, 57, 65, 0.502);
+  border: 1px solid black;
+  animation: fade-in 2s ease-in-out;
+  animation-iteration-count: 1;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.list-prod-1 {
+  background-color: rgba(30, 193, 38, 0.705);
+}
+
+.list-prod-2 {
+  background-color: rgba(30, 193, 38, 0.705);
+}
+
+.list-prod-3 {
+  background-color: rgba(30, 193, 38, 0.705);
+}/*# sourceMappingURL=producto.css.map */
