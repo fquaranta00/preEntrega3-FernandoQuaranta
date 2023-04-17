@@ -6,12 +6,12 @@
   background-repeat: no-repeat;
 }
 .divContactos .titulomensajeContacto {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .divContactos .bloqueMensaje {
-  display: block;
-  width: 100px;
-  height: 700px;
+  display: inline-blockfif;
+  width: auto;
+  height: 650px;
 }
 .divContactos .bloqueMensaje #name {
   margin-bottom: 10px;
@@ -19,17 +19,16 @@
 }
 .divContactos .bloqueMensaje #email {
   margin-bottom: 10px;
-  margin-left: 10px;
+  margin-left: 13px;
 }
 .divContactos .bloqueMensaje #message {
-  margin-bottom: 10px;
-  margin-left: 10px;
-  width: 183px;
+  margin-left: 13px;
+  width: 189px;
 }
 .divContactos .bloqueMensaje .botonenviarContacto {
-  padding: 0;
-  margin: 0;
-  margin-left: 10px;
+  padding: 5px;
+  margin: 0px;
+  margin-left: 13px;
   padding-right: 140px;
 }
 .divContactos .bloqueContacto {
@@ -45,4 +44,9 @@
   text-align: center;
   box-sizing: border-box;
   color: rgb(18, 5, 25);
+}
+@media (max-width: 1000px) {
+  .divContactos .bloqueContacto {
+    display: none;
+  }
 }/*# sourceMappingURL=contacto.css.map */

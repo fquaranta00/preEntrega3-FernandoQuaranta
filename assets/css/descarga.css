@@ -9,4 +9,20 @@
   border: 15px;
   top: 50px;
   left: 100px;
+}
+
+.titulomensajeDescargas {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.desc-pan .boto-descarga {
+  width: 120px;
+  margin-bottom: 50px;
+}
+
+.img-flow .des-img {
+  border-radius: 10%;
+  padding: 1%;
+  margin-left: 25%;
 }/*# sourceMappingURL=descarga.css.map */

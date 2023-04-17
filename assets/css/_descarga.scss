@@ -1,0 +1,45 @@
+//   /* 
+//      ACA COMIENZA EL CSS 
+//      DE LA PÁGINA "DESCARGA"
+//   */
+
+
+.mainDescarga {
+    height: 800px;
+    background-color: rgba(0, 128, 0, 0.406);
+
+    // .videoDescarga {
+    // display: inline-block;
+    // position: absolute;
+    // padding: 90px;
+    // border: 15px;
+    // top: 50px;
+    // left: 100px;
+    // }
+}
+
+.titulomensajeDescargas {
+    margin-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.desc-pan {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+
+
+    .boto-descarga {
+        width: 120px;
+        margin-bottom: 50px;
+    }
+}
+
+.img-flow {
+    .des-img {
+    border-radius: 10%;
+    padding: 1%;
+    margin-left: 25%;
+    }
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

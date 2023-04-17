@@ -248,14 +248,22 @@
 }
 .jumbo-pag-prod .prod-text {
   color: #132d00;
-  background-color: rgba(170, 240, 214, 0.7411764706);
+  background-color: rgba(245, 255, 178, 0.7411764706);
   padding: 10px;
-  box-shadow: 8px 18px 28px rgba(14, 57, 65, 0.502);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   border: 1px solid black;
   animation: fade-in 2s ease-in-out;
   animation-iteration-count: 1;
 }
-@keyframes fade-in {
+.jumbo-pag-prod .prod-text .prod-titu {
+  background-color: rgba(255, 0, 0, 0.167);
+  color: black;
+}
+.jumbo-pag-prod .prod-text .prod-titu-p {
+  background-color: rgba(255, 0, 0, 0.167);
+  color: black;
+}
+@keyframes fade-out {
   0% {
     opacity: 0;
   }
@@ -278,6 +286,7 @@
 
 .articulo {
   padding: 40px;
+  background-image: linear-gradient(109.6deg, rgb(254, 253, 205) 11.2%, rgb(163, 230, 255) 91.1%);
 }
 .articulo .textoinicioEmpresa {
   margin-left: 20px;
@@ -293,10 +302,12 @@
   position: relative;
   display: inline-block;
   height: 350px;
-  width: 450px;
+  width: 650px;
+  border-radius: 10px;
   padding: 0;
   margin: 0;
   text-align: top;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .divContactos {
@@ -307,12 +318,12 @@
   background-repeat: no-repeat;
 }
 .divContactos .titulomensajeContacto {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .divContactos .bloqueMensaje {
-  display: block;
-  width: 100px;
-  height: 700px;
+  display: inline-blockfif;
+  width: auto;
+  height: 650px;
 }
 .divContactos .bloqueMensaje #name {
   margin-bottom: 10px;
@@ -320,17 +331,16 @@
 }
 .divContactos .bloqueMensaje #email {
   margin-bottom: 10px;
-  margin-left: 10px;
+  margin-left: 13px;
 }
 .divContactos .bloqueMensaje #message {
-  margin-bottom: 10px;
-  margin-left: 10px;
-  width: 183px;
+  margin-left: 13px;
+  width: 189px;
 }
 .divContactos .bloqueMensaje .botonenviarContacto {
-  padding: 0;
-  margin: 0;
-  margin-left: 10px;
+  padding: 5px;
+  margin: 0px;
+  margin-left: 13px;
   padding-right: 140px;
 }
 .divContactos .bloqueContacto {
@@ -342,21 +352,42 @@
   left: 650px;
   width: 500px;
   height: 600px;
-  background-color: bisque;
+  background-image: radial-gradient(circle 400px at 6.8% 8.3%, rgb(255, 244, 169) 0%, rgb(255, 244, 234) 100.2%);
   text-align: center;
   box-sizing: border-box;
   color: rgb(18, 5, 25);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@media (max-width: 1000px) {
+  .divContactos .bloqueContacto {
+    display: none;
+  }
 }
 
 .mainDescarga {
   height: 800px;
   background-color: rgba(0, 128, 0, 0.406);
 }
-.mainDescarga .videoDescarga {
-  display: inline-block;
-  position: absolute;
-  padding: 90px;
-  border: 15px;
-  top: 50px;
-  left: 100px;
+
+.titulomensajeDescargas {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.desc-pan {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+}
+.desc-pan .boto-descarga {
+  width: 120px;
+  margin-bottom: 50px;
+}
+
+.img-flow {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.img-flow .des-img {
+  border-radius: 10%;
+  padding: 1%;
+  margin-left: 25%;
 }/*# sourceMappingURL=style.css.map */

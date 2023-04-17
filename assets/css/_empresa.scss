@@ -1,0 +1,35 @@
+//   /* 
+//      ACA COMIENZA EL CSS 
+//      DE LA PÁGINA "EMPRESA"
+//   */
+
+.articulo { 
+    padding: 40px;
+    background-image: linear-gradient( 109.6deg,  rgba(254,253,205,1) 11.2%, rgba(163,230,255,1) 91.1% );
+    
+
+    .textoinicioEmpresa {
+        margin-left: 20px;
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        display: inline-block;
+        color: maroon;
+        top: 0px;   
+        position: relative;
+    }
+
+    .mainimageEmpresa {
+        position: relative;
+        display: inline-block;
+        height: 350px;
+        width: 650px;
+        border-radius: 10px;
+        // left: 450px;
+        // top: 0px;
+        padding: 0;
+        margin: 0;
+        text-align: top;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+}
