@@ -1,3 +1,4 @@
+$color-negro: #000000;
 // COMIENZO SECCION PRODUCTOS
 
 .jumbo-pag-prod {
@@ -5,7 +6,7 @@
     // background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
     // background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    background-color: #000000;
+    background-color: $color-negro;
     background-image: url('../img/formulas.gif');
     background-position: center;
     background-repeat: no-repeat;
@@ -17,13 +18,13 @@
     .prod-text {
         .prod-titu {
             background-color: rgba(255, 0, 0, 0.167);
-            color: black;
+            color: $color-negro;
 
         }
 
         .prod-titu-p {
             background-color: rgba(255, 0, 0, 0.167);
-            color: black;
+            color: $color-negro;
 
         }
 
@@ -31,7 +32,7 @@
         background-color: #f5ffb2bd;
         padding: 10px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-        border: 1px solid black;
+        border: 1px solid $color-negro;
         
         animation: fade-in 2s ease-in-out;
         animation-iteration-count: 1;

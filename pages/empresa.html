@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <!-- fin bootstrap link -->
+
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link
       rel="shortcut icon"
@@ -22,6 +23,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <!-- inicio AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- fin AOS -->
 
     <title>3raEntrega - GestionPROFESIONAL - Productos</title>
   </head>
@@ -120,7 +124,7 @@
           </div>
           <!-- <button class="botonpInicio" onclick=""><a href="../index.html"><strong>LEER MÁS</strong></a></button> -->
           <div class="row">
-            <div class="col-12 col-xs-12 col-sm-12 col-md-12 fotoInicio"></div>
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 fotoInicio " data-aos="flip-left"></div>
               <img
                 class="mainimageEmpresa"
                 src="../assets/img/coders-discutiendo.jpg"
@@ -227,5 +231,13 @@
     ></script>
 
     <!-- fin bootstrap css y js -->
+
+        <!-- comienzo script AOS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+        <!-- fin script AOS -->
+
   </body>
 </html>

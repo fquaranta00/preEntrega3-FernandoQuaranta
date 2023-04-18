@@ -55,19 +55,18 @@
   transform: scale(1.04);
 }
 .jumbo-prod p {
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 .jumbo-prod h2 {
-  color: rgb(0, 0, 0);
+  color: #000000;
   background-color: rgba(175, 78, 192, 0.3254901961);
   width: 10%;
 }
 
 .quienes-back {
-  background: #67B26F; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #367493, #3d6b42); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  background: linear-gradient(to right, #367493, #3d6b42);
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
 }
 .quienes-back h3 {
   text-decoration: underline;
@@ -251,17 +250,17 @@
   background-color: rgba(245, 255, 178, 0.7411764706);
   padding: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  border: 1px solid black;
+  border: 1px solid #000000;
   animation: fade-in 2s ease-in-out;
   animation-iteration-count: 1;
 }
 .jumbo-pag-prod .prod-text .prod-titu {
   background-color: rgba(255, 0, 0, 0.167);
-  color: black;
+  color: #000000;
 }
 .jumbo-pag-prod .prod-text .prod-titu-p {
   background-color: rgba(255, 0, 0, 0.167);
-  color: black;
+  color: #000000;
 }
 @keyframes fade-out {
   0% {

@@ -1,9 +1,14 @@
+//variables
+
+$color-negro: #000000;
+$verde-navbar: rgb(192, 255, 115);
+
 .navbar {
     
-    background-color: rgb(192, 255, 115);
+    background-color: $verde-navbar;
     
     .imagen-marca {
-        background-color: rgb(192, 255, 115);
+        background-color: $verde-navbar;
     
         img {
             width: 30px;
@@ -18,7 +23,7 @@
 }
 
 .nav-desplegable {
-    background-color: rgb(192, 255, 115);
+    background-color: $verde-navbar;
     border: 0px;
 }
 
@@ -67,11 +72,11 @@
     }
 
     p {
-    color: rgb(0, 0, 0);
+    color: $color-negro;
     }
 
     h2 {
-    color: rgb(0, 0, 0);
+    color: $color-negro;
     background-color: #af4ec053;
     width: 10%;
     }
@@ -80,12 +85,10 @@
 // COMIENZO SECCION NOSOTROS
 
 .quienes-back {
-    background: #67B26F;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #367493, #3d6b42); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #367493, #3d6b42);
 
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid $color-negro;
+    border-bottom: 1px solid $color-negro;
 
     h3 {
     text-decoration:underline;
@@ -113,7 +116,7 @@
     margin-bottom: 0;
 
     h2 {
-    color: #000000;
+    color: $color-negro;
     margin-bottom: 20px;
     padding-top: 0px;
     background-color: rgba(255, 0, 0, 0.167);
@@ -121,7 +124,7 @@
     }
 
     p {
-    color: #000000;
+    color: $color-negro;
     font-size: large;
     }
 
