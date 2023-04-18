@@ -3,12 +3,18 @@
 $color-negro: #000000;
 $verde-navbar: rgb(192, 255, 115);
 
+@mixin bg-size-pos-repeat {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .navbar {
     
     background-color: $verde-navbar;
     
     .imagen-marca {
-        background-color: $verde-navbar;
+        @extend .navbar;
     
         img {
             width: 30px;
@@ -23,7 +29,7 @@ $verde-navbar: rgb(192, 255, 115);
 }
 
 .nav-desplegable {
-    background-color: $verde-navbar;
+    @extend .navbar;
     border: 0px;
 }
 
@@ -49,9 +55,7 @@ $verde-navbar: rgb(192, 255, 115);
         rgba(129, 132, 91, 0.459),
         rgba(201, 154, 240, 0.283)
     ),url(../img/manosmedicaconceluenmesa.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    @include bg-size-pos-repeat;
     margin: 0px;
     height: 350px;
     transition: all 3s;
@@ -62,9 +66,7 @@ $verde-navbar: rgb(192, 255, 115);
         rgb(129, 132, 91),
         rgba(201, 154, 240, 0.493)
         ),url(../img/manosmedicaconceluenmesa.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    @include bg-size-pos-repeat;
     margin: 0px;
     height: 350px;
     transition: all 3s;
@@ -96,8 +98,7 @@ $verde-navbar: rgb(192, 255, 115);
 
     .nleft {
     background-image: url(../img/genteenunacompu.jpg);
-    background-size: cover;
-    background-position: center;
+    @include bg-size-pos-repeat;
     height: 350px;
     }
 }
@@ -108,10 +109,8 @@ $verde-navbar: rgb(192, 255, 115);
     background-image: linear-gradient(
         rgb(187, 190, 136),
         rgba(212, 184, 235, 0.493)), url(../img/genteconCompusobreMesa.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
+        @include bg-size-pos-repeat;
+        height: 100%;
     padding-top: 25px;
     margin-bottom: 0;
 
