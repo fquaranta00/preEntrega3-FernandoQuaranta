@@ -31,7 +31,7 @@
 }
 
 .jumbo-prod {
-  background-image: linear-gradient(rgba(129, 132, 91, 0.459), rgba(201, 154, 240, 0.283)), url(../img/manosmedicaconceluenmesa.jpg);
+  background-image: linear-gradient(rgba(129, 132, 91, 0.459), rgba(201, 154, 240, 0.283)), url(../img/manosmedicaconceluenmesa-min.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@
   transform-origin: center center;
 }
 .jumbo-prod:hover {
-  background-image: linear-gradient(rgb(129, 132, 91), rgba(201, 154, 240, 0.493)), url(../img/manosmedicaconceluenmesa.jpg);
+  background-image: linear-gradient(rgb(129, 132, 91), rgba(201, 154, 240, 0.493)), url(../img/manosmedicaconceluenmesa-min.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@
   text-decoration: underline;
 }
 .quienes-back .nleft {
-  background-image: url(../img/genteenunacompu.jpg);
+  background-image: url(../img/genteenunacompu-min.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,7 +76,7 @@
 }
 
 .gest-video {
-  background-image: linear-gradient(rgb(187, 190, 136), rgba(212, 184, 235, 0.493)), url(../img/genteconCompusobreMesa.jpg);
+  background-image: linear-gradient(rgb(187, 190, 136), rgba(212, 184, 235, 0.493)), url(../img/genteconCompusobreMesa-min.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -313,7 +313,7 @@
 
 .divContactos {
   padding: 10px;
-  background-image: linear-gradient(rgba(129, 132, 91, 0.459), rgba(201, 154, 240, 0.283)), url(../img/mapamundi.jpg);
+  background-image: linear-gradient(rgba(129, 132, 91, 0.459), rgba(201, 154, 240, 0.283)), url(../img/mapamundi-min.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -54,7 +54,7 @@ $verde-navbar: rgb(192, 255, 115);
     background-image: linear-gradient(
         rgba(129, 132, 91, 0.459),
         rgba(201, 154, 240, 0.283)
-    ),url(../img/manosmedicaconceluenmesa.jpg);
+    ),url(../img/manosmedicaconceluenmesa-min.jpg);
     @include bg-size-pos-repeat;
     margin: 0px;
     height: 350px;
@@ -65,7 +65,7 @@ $verde-navbar: rgb(192, 255, 115);
     background-image: linear-gradient(
         rgb(129, 132, 91),
         rgba(201, 154, 240, 0.493)
-        ),url(../img/manosmedicaconceluenmesa.jpg);
+        ),url(../img/manosmedicaconceluenmesa-min.jpg);
     @include bg-size-pos-repeat;
     margin: 0px;
     height: 350px;
@@ -97,7 +97,7 @@ $verde-navbar: rgb(192, 255, 115);
     }
 
     .nleft {
-    background-image: url(../img/genteenunacompu.jpg);
+    background-image: url(../img/genteenunacompu-min.jpg);
     @include bg-size-pos-repeat;
     height: 350px;
     }
@@ -108,7 +108,7 @@ $verde-navbar: rgb(192, 255, 115);
 .gest-video {
     background-image: linear-gradient(
         rgb(187, 190, 136),
-        rgba(212, 184, 235, 0.493)), url(../img/genteconCompusobreMesa.jpg);
+        rgba(212, 184, 235, 0.493)), url(../img/genteconCompusobreMesa-min.jpg);
         @include bg-size-pos-repeat;
         height: 100%;
     padding-top: 25px;
